@@ -16,7 +16,7 @@ header{
   background-origin: center;
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.9;
+
   }
   .logo img{
     margin-top: 40px;
@@ -33,7 +33,7 @@ color: #990000 ;
 text-transform: uppercase;
 font-weight: 700; 
 font-family: 'Gelasio', serif;
-text-shadow: 0 0 11px #fff;
+text-shadow: 0 0 15px  #7B1600	;
 }
 
 /****************navbar style****************/
@@ -50,16 +50,15 @@ font-size: 18px;
 font-weight: bold;
 }
 .main-nav li a{ 
-    color: #fff;
     text-decoration: none;
     font-weight: bold; 
     text-transform: uppercase;  
 }
 .main-nav li a:hover{   
-    border-bottom: 1px solid #02fd0e; 
+    border-bottom: 1px solid #990000; 
 }
 #nav-text-color{
-    color:#FA8072;  
+    color:#7B1600;  
 }
 
 /***************header page text style****************/
@@ -67,11 +66,8 @@ font-weight: bold;
   width: 100%; 
   position: absolute;
   text-align: center;
-  color: white;
   margin-top: 200px;
   bottom: 30%;
-  text-transform: uppercase;
-  
 }
 
    .main-content-header h3{
@@ -81,34 +77,24 @@ font-weight: bold;
     letter-spacing: 1px;
     word-spacing: 1px;
     text-transform: bold;
-    text-shadow: 5px 10px 10px rgb(143, 17, 17);  
+    text-shadow: 5px 10px 10px #7B1600;  
 }
 
 .main-content-header p{
     font-size: 20px;
-    color: #330000;
+    color:#7B1600;
     font-weight: bold;
     word-spacing: 3px;
-    text-shadow: 10px 10px 10px rgb(46, 45, 45);
+    text-shadow: 1px 1px 15px #990000;
 }
-
-
- 
-
  /**************button***************/
- 
 #button-id{
+  border: 2px solid#990000;
+  font-family: 'Gelasio', serif;
   width: auto;
   color: #fff;
-  box-shadow: 0 0 11px #7FFF00;
+  box-shadow: 0 0 11px #990000;
   background-color:#000;
-  text-shadow: 0 0 11px #7FFF00;
-}
-#button-id:hover{
-  text-shadow: 0 0 11px #000000;
-  color: #fff;
-  background: #990000;
-box-shadow: 0 0 11px #fff;
 }
 
 /************** form style*************/
@@ -138,25 +124,24 @@ div .bg-image .figcaption {
   margin-bottom: 5px;
   color:#fff;
 }
-
 input{
-    border-radius: 2px solid rgb(153, 255, 255) ;
+  color: #990000;
 }
 #input{
-    background-color : rgb(153, 255, 255);
+  background-color:transparent; 
 }
 #input:hover{
-    background-color: white;
-    box-shadow: 0 0 11px rgb(153, 255, 255);; 
+  background-color:transparent; 
+  box-shadow: 0 0 11px#edc3a5;
 }
 #exampleFormControlTextarea {
     margin-left: 5px ;
     margin-right: 5px;
-    background-color : rgb(153, 255, 255);
+    background-color:transparent; 
   }
   #exampleFormControlTextarea:hover{
-    background-color: white; 
-    box-shadow: 0 0 11px rgb(153, 255, 255);
+    background-color:transparent; 
+    box-shadow: 0 0 11px#edc3a5;
   }
 
 /*//////image hover effect//////*/
